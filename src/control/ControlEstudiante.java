@@ -14,6 +14,18 @@ import modelo.Estudiante;
  */
 public class ControlEstudiante {
 
+    public static boolean insertEstudianteFoto(LinkedList<Estudiante> le) {
+        throw new UnsupportedOperationException("Not supported yet."); 
+//To change body of generated methods, choose Tools | Templates.
+    String sql = "";
+    
+        for (int i = 0; i < le.size(); i++) {
+            sql="";
+            sql="INSERT INTO ESTUDIANTES (identificacione,codigoe,nombre1e,apellido1e,direccione,correoe,jornada,Fotoestudiante) VALUES (?,?,?,?,?,?,?,?)";
+            
+        }
+    }
+
     public ControlEstudiante() {
     }
 
